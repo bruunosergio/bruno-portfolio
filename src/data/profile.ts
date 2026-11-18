@@ -44,6 +44,29 @@ export const projects = [
     ],
   },
   {
+    slug: "fisiosuite",
+    title: "FisioSuite",
+    role: "Produto próprio · SaaS clínicas",
+    blurb:
+      "Gestão para fisioterapia: agenda, pacotes de sessões, prontuário, financeiro e painel da plataforma multi-clínica.",
+    problem:
+      "Clínica pequena espalha agenda, pacotes e cobrança em planilha e WhatsApp solto.",
+    solution:
+      "Monorepo NestJS hexagonal + React. JWT, Prisma/Postgres, WhatsApp ainda em stub.",
+    stack: ["NestJS", "TypeScript", "Prisma", "PostgreSQL", "React", "Docker"],
+    highlights: [
+      "Mesmo molde hexagonal do Meu Copiloto",
+      "Módulos de agenda, pacotes, clínico e financeiro",
+      "Admin de plataforma separado do painel da clínica",
+    ],
+    links: [
+      {
+        label: "Repositório",
+        href: "https://github.com/bruunosergio/fisiosuite",
+      },
+    ],
+  },
+  {
     slug: "starticoins",
     title: "StartiCoins",
     role: "Faculdade · backend",

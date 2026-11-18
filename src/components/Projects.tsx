@@ -8,7 +8,7 @@ export function Projects() {
           Projetos
         </p>
         <h2 className="mt-3 max-w-2xl font-[family-name:var(--font-display)] text-3xl font-semibold tracking-tight md:text-4xl">
-          Produto na loja, backend Java e app Flutter
+          Produto na loja, SaaS de clínica, Java e Flutter
         </h2>
 
         <div className="mt-14 divide-y divide-line border-y border-line">
